@@ -2,11 +2,11 @@
 
 A production-grade, pixel-perfect landing website for VyomGarud - an advanced UAV (Drone) defense technology company. Built with modern web technologies and featuring a dark military theme with premium animations.
 
-<img width="600" height="874" alt="Screenshot 2025-11-15 205024" src="https://github.com/user-attachments/assets/0ea22e01-12ed-45b5-833d-5b9c3ff5f91d" />
-<img width="600" height="857" alt="Screenshot 2025-11-15 205030" src="https://github.com/user-attachments/assets/b375ba16-bf19-4223-aa73-1d9ca27c9a43" />
+<img width="400" height="874" alt="Screenshot 2025-11-15 205024" src="https://github.com/user-attachments/assets/0ea22e01-12ed-45b5-833d-5b9c3ff5f91d" />
+<img width="400" height="857" alt="Screenshot 2025-11-15 205030" src="https://github.com/user-attachments/assets/b375ba16-bf19-4223-aa73-1d9ca27c9a43" />
 
-<img width="600" height="857" alt="Screenshot 2025-11-15 205034" src="https://github.com/user-attachments/assets/982ddf00-3080-4eab-b5ca-95654765abba" />
-<img width="600" height="857" alt="Screenshot 2025-11-15 205038" src="https://github.com/user-attachments/assets/dc784ee9-ff2d-4474-8156-dbcca8f8a679" />
+<img width="400" height="857" alt="Screenshot 2025-11-15 205034" src="https://github.com/user-attachments/assets/982ddf00-3080-4eab-b5ca-95654765abba" />
+<img width="400" height="857" alt="Screenshot 2025-11-15 205038" src="https://github.com/user-attachments/assets/dc784ee9-ff2d-4474-8156-dbcca8f8a679" />
 
 ## 🚀 Features
 
