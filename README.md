@@ -181,18 +181,80 @@ Each component is self-contained. Edit the respective component files in `src/co
 
 ## 🚢 Deployment
 
-### Vercel
-1. Push code to GitHub
-2. Import project in Vercel
-3. Deploy automatically
+Your project is now on GitHub: [https://github.com/PRATYUSH213S/VyomGarud-project](https://github.com/PRATYUSH213S/VyomGarud-project)
 
-### Netlify
-1. Build command: `npm run build`
-2. Publish directory: `dist`
-3. Deploy
+### Option 1: Vercel (Recommended - Easiest)
 
-### Other Platforms
-The `dist` folder contains static files that can be deployed to any static hosting service.
+1. Go to [vercel.com](https://vercel.com) and sign in with GitHub
+2. Click **"Add New Project"**
+3. Import your repository: `PRATYUSH213S/VyomGarud-project`
+4. Vercel will auto-detect Vite settings:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+5. Click **"Deploy"**
+6. Your site will be live in ~2 minutes with a URL like: `vyomgarud-project.vercel.app`
+
+**Benefits**: Free, automatic HTTPS, custom domains, auto-deploys on git push
+
+### Option 2: Netlify
+
+1. Go to [netlify.com](https://netlify.com) and sign in with GitHub
+2. Click **"Add new site"** → **"Import an existing project"**
+3. Select your repository: `PRATYUSH213S/VyomGarud-project`
+4. Configure build settings:
+   - **Build command**: `npm run build`
+   - **Publish directory**: `dist`
+5. Click **"Deploy site"**
+6. Your site will be live with a URL like: `vyomgarud-project.netlify.app`
+
+**Benefits**: Free, automatic HTTPS, custom domains, form handling
+
+### Option 3: GitHub Pages
+
+1. Build your project locally:
+   ```bash
+   npm run build
+   ```
+2. Install `gh-pages` package:
+   ```bash
+   npm install --save-dev gh-pages
+   ```
+3. Add to `package.json` scripts:
+   ```json
+   "scripts": {
+     "deploy": "npm run build && gh-pages -d dist"
+   }
+   ```
+4. Deploy:
+   ```bash
+   npm run deploy
+   ```
+5. Enable GitHub Pages in repository settings → Pages → Source: `gh-pages` branch
+6. Your site will be at: `https://PRATYUSH213S.github.io/VyomGarud-project`
+
+### Option 4: Manual Deployment
+
+1. Build the project:
+   ```bash
+   npm run build
+   ```
+2. The `dist` folder contains all static files
+3. Upload the contents of `dist` to any static hosting service:
+   - AWS S3 + CloudFront
+   - Firebase Hosting
+   - Azure Static Web Apps
+   - Any web server (Apache, Nginx, etc.)
+
+### Build for Production
+
+Before deploying, always build the project:
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `dist` directory.
 
 ## 📝 License
 
